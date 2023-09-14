@@ -1,0 +1,560 @@
+header{
+    background-color: #008374;
+}
+
+header nav a{
+    color: white;
+}
+
+.navbar .navbar-brand{
+    color: white;
+}
+
+.navbar .navbar-brand span{
+    color: #f85a40;
+}
+
+nav .navbar-nav li a{
+    color: white;
+}
+.titre_about{
+    color: gray;
+}
+/*-------------------------------- SECTION 1 --------------------------*/
+
+#section1{
+    background-color: #008374;
+    color: white;
+    padding-bottom: 10%;
+}
+
+#section1 button{
+    color: white;
+}
+
+#section1 .btn1{
+    border: solid 1px white;
+    border-radius: 19px;
+}
+
+.fa-solid {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 4px;
+    margin-right: 5px;
+}
+
+
+
+/*-------------------- SECTION 2 ---------------*/
+#section2{
+    position: relative;
+}
+
+#section2 .row{
+    position: absolute;
+    top: -85px;
+    width: 100%;
+}
+
+#section2 .card{
+    background-color: #089988;
+    width: 24%;
+    color: white;
+    height: 200px;
+    padding-top: 4%;
+}
+
+#section2 i{
+    font-size: 40px;
+}
+
+/*--------------------- SECTION ABOUT --------------*/
+
+#about .titre1{
+    margin-top: 20%;
+}
+
+h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #008374;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#about p{
+    font-weight: lighter;
+    color: black;
+}
+
+#about .titre_about{
+    color: gray;
+}
+
+#about ul{
+    padding: 0;
+}
+
+#about ul li{
+    list-style: none;
+}
+
+#about i{
+    color: #008374;
+    margin-right: 5px;
+}
+
+#about img{
+    border-radius: 25px;
+}
+
+/*----------------- SECTION 3 ---------------- */
+#section3 img{
+    width: 100px;
+}
+
+#section3 .row{
+    margin-top: 10%;
+}
+
+#section3 .client p span{
+    color: #008374;
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+#section3 .video{
+    background-image: url(image/cta-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+    /* padding-bottom: 10%; */
+    border-radius: 30px;
+    padding: 0;
+    margin-top: 10%;
+}
+
+#section3 i{
+    color: white;
+    font-size: 25px;
+    margin-top: 6%;
+    background-color: #008374;
+    padding: 25px;
+    border: none;
+    border-radius: 50%;
+    background: radial-gradient(at center, #008374, #FF910100);
+}
+
+#section3 .video button{
+    color: white;
+    border: solid 1px white;
+    border-radius: 40px;
+    padding: 20px 45px;
+
+    margin-top: 7%;
+}
+
+#section3 .video button:hover{
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 45px;
+    background-color: #008374;
+    margin-top: 7%;
+}
+
+#section3 .video .test{
+    background-color: #0000005e;
+    border-radius: 30px;
+    padding-bottom: 7%;
+}
+
+#section3 .video .para{
+    margin: 3% 7%;
+}
+
+
+
+/*-------------------- SECTION SERVICES ------------------------*/
+
+#service{
+    background-color: #f6f6f6;
+}
+
+#service .carte{
+    width: 32%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+#service .carte i{
+    font-size: 45px;
+}
+
+#service .carte a i{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#service .carte a{
+    text-decoration: none;
+    color: #008374;
+}
+
+
+/*-------------------- SECTION TESTIMONIALS ------------------------*/
+
+#testimonial .shadow{
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#testimonial .part1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#testimonial .part1 p{
+    color: gray;
+    line-height: 7px;
+    font-size: 14px;
+}
+
+#testimonial .part1 i{
+    color: #ffc107;
+}
+
+#testimonial .part1 .texte p{
+    margin-top: 0;
+}
+
+#testimonial .shadow p{
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+#testimonial .shadow p i{
+    color: #008374;
+    font-size: 25px;
+}
+
+#testimonial .shadow .quote-right{
+    transform: scale(-1, -1);
+    display: inline-block;
+}
+
+
+/*-------------------- SECTION PORTFOLIO ------------------------*/
+
+#portfolio{
+    background-color: #f6f6f6;
+}
+
+#portfolio .titre_about{
+    color: gray;
+}
+
+#portfolio ul{
+    list-style: none;
+}
+
+#portfolio ul a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+#portfolio .card p{
+    color: gray;
+}
+
+/*-------------------- SECTION OUR TEAM ------------------------*/
+
+#team .card{
+    border-radius: 15px;
+}
+
+#team .card img{
+    padding: 5%;
+    border-radius: 25px;
+}
+
+#team .card p{
+    color: gray;
+}
+
+#team .card i{
+    color: gray;
+    padding: 5%;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+/*-------------------- SECTION PRICING ------------------------*/
+
+#pricing{
+    background-color: #f6f6f6;
+}
+
+#pricing .row{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#pricing .price{
+    background-color: white;
+    padding: 2% 0;
+    border-radius: 15px;
+}
+
+#pricing .price ul{
+    list-style: none;
+}
+
+#pricing .price .boite{
+    color: white;
+    font-size: 25px;
+    margin-top: 10%;
+    background-color: #008374;
+    padding: 25px;
+    border: none;
+    border-radius: 50%;
+    background: radial-gradient(at center, #008374, #FF910100);
+}
+
+#pricing h6{
+    margin-bottom: 10%;
+}
+
+#pricing p{
+    margin-top: 10%;
+    color: gray;
+}
+
+#pricing span{
+    color: #f85a40;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#pricing ul li{
+    color: gray;
+}
+
+#pricing i{
+    color: #008374;
+    font-size: 23px;
+}
+
+#pricing button{
+    border: 1px solid #008374;
+    color: #008374;
+    font-weight: bold;
+    margin-top: 5%;
+    border-radius: 45px;
+    padding: 3% 10%;
+}
+
+#pricing button:hover{
+    border: 1px solid #008374;
+    color: white;
+    background-color: #008374;
+    font-weight: bold;
+    margin-top: 5%;
+    border-radius: 45px;
+    padding: 3% 10%;
+}
+
+#pricing .free .barre{
+    text-decoration: line-through;
+}
+
+#pricing .free .barre i{
+    color: gray;
+}
+
+#pricing .business{
+    /* height: 600px; */
+    border: 3px solid #008374;
+    margin: -4% 0;
+    border-radius: 15px;
+}
+
+/*-------------------- SECTION 4 ------------------------*/
+
+#section4 h5{
+    font-weight: normal;
+    font-size: 35px;
+}
+
+#section4 h5 span{
+    font-weight: bold;
+}
+
+#section4 p{
+    color: gray;
+}
+
+#section4 ul{
+    list-style: none;
+    padding: 0;
+}
+
+#section4 .liste li{
+    color: #008374;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+
+    padding: 2%;
+    box-shadow: 1px 2px 5px -4px black;
+    margin-bottom: 2%;
+}
+
+#section4 .liste li span{
+    color: black;
+}
+
+
+/*------------------------- SECTION 5 --------------------------*/
+
+#section5{
+    background-color: #f6f6f6;
+}
+
+#section5 .card .photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+#section5 .card p{
+    color: gray;
+}
+
+#section5 .card .photo p{
+    color: black;
+}
+
+
+/*-------------------- SECTION CONTACT ------------------------*/
+
+#contact .all{
+    box-shadow: 1px 2px 5px -4px black;
+    margin-top: 5%;
+}
+
+#contact .location{
+    background-color: #008374;
+    border-radius: 15px 0 0 15px;
+}
+
+#contact .loc{
+    background-color: #089988;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+
+} 
+
+#contact i{
+    font-size: 30px;
+    margin-right: 2%;
+}
+
+#contact .form{
+    padding: 4%;
+}
+
+#contact button{
+    color: white;
+    background-color: #008374;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+#contact button:hover{
+    color: #008374;
+    background-color: white;
+    border: 1px solid #008374;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+/*---------------------------------- FOOTER ----------------------------*/
+
+footer{
+    background-color: #008374;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+footer p{
+    font-weight: lighter;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer span{
+    font-weight: bold;
+}
+
+footer ul li{
+    font-weight: lighter;
+    margin-bottom: 10%;
+}
+
+footer i{
+    margin-right: 5%;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+/* BUTTON UP */
+
+.up{
+    background-color: #f85a40;
+    position: fixed;
+    z-index: 99999;
+    top: 90%;
+    right: 1%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.up i{
+    border: none;
+    font-size: 20px;
+    color: white;
+}
